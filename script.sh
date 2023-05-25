@@ -16,7 +16,8 @@ echo ""
 
 # Move Files...
 echo "Copying Files to /var/www/html .."
-cp -R "./$GITREPONAME/html/" /var/www/html/
+cp -R "./$GITREPONAME/html/" /var/www/
+rm -R /tmp/*
 echo ""
 
 # Start Apache
