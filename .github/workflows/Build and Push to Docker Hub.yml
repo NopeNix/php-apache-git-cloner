@@ -33,5 +33,5 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: nopenix/httpd-alpine-git-cloner
+          tags: nopenix/php-apache-git-cloner
       
